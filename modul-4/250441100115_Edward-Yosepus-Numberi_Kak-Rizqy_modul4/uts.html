@@ -1,0 +1,241 @@
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BizMe - Landing Page</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <style>
+            body { font-family: 'Poppins', sans-serif; }
+            .text-purple-main { color: #8A4FFF; }
+            .bg-purple-main { background-color: #8A4FFF; }
+            .bg-orange-main { background-color: #FF9F43; }
+            .bg-orange-light { background-color: #FFDEB9; }
+        </style>
+    </head>
+    <body class="bg-white">
+
+        <nav class="flex justify-between items-center px-10 py-5">
+            <div class="flex items-center gap-2">
+                <img src="Logo.png" alt="Logo" class="w-8">
+                <span class="text-xl font-bold">BizMe</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-medium">
+                <a href="#" class="text-orange-500">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+            </div>
+            <button class="bg-orange-main text-white px-6 py-2 rounded-full font-semibold shadow-lg">Sign Up</button>
+        </nav>
+
+        <section class="flex flex-col md:flex-row items-center px-10 py-16">
+            <div class="md:w-1/2">
+                <h1 class="text-5xl font-bold leading-tight">
+                    We Create <br> <span class="text-purple-main">Solutions</span> For <br> Your Business
+                </h1>
+                <p class="text-gray-500 mt-5 max-w-md">
+                    We provide intelligent technology solutions to optimize efficiency and accelerate the growth of your business operations.
+                </p>
+                <button class="mt-8 bg-orange-main text-white px-8 py-3 rounded-lg font-bold shadow-md">GET STARTED</button>
+            </div>
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <img src="1.png" alt="Hero Illustration" class="w-full max-w-lg mx-auto">
+            </div>
+        </section>
+
+        <section class="py-20 text-center">
+            <h2 class="text-3xl font-bold">We Provide The Best <span class="text-purple-main">Services</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 px-10 mt-12">
+                <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition">
+                    <img src="icon 1.png" class="mx-auto mb-4 w-12">
+                    <h3 class="font-bold mb-2">Analysis</h3>
+                    <p class="text-xs text-gray-400 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="bg-purple-main text-white text-xs px-5 py-2 rounded">VIEW MORE</button>
+                </div>
+                <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition">
+                    <img src="icon 2.png" class="mx-auto mb-4 w-12">
+                    <h3 class="font-bold mb-2">Ads Campaign</h3>
+                    <p class="text-xs text-gray-400 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="bg-purple-main text-white text-xs px-5 py-2 rounded">VIEW MORE</button>
+                </div>
+                <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition">
+                    <img src="icon 3.png" class="mx-auto mb-4 w-12">
+                    <h3 class="font-bold mb-2">Marketing</h3>
+                    <p class="text-xs text-gray-400 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="bg-purple-main text-white text-xs px-5 py-2 rounded">VIEW MORE</button>
+                </div>
+                <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-xl transition">
+                    <div class="bg-orange-100 w-12 h-12 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-orange-500 font-bold">...</span>
+                    </div>
+                    <h3 class="font-bold mb-2">Others</h3>
+                    <p class="text-xs text-gray-400 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="bg-purple-main text-white text-xs px-5 py-2 rounded">VIEW MORE</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-orange-light py-16 flex flex-col md:flex-row items-center px-10">
+            <div class="md:w-1/2">
+                <img src="2.png" alt="Solutions" class="w-full max-w-md mx-auto">
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-4xl font-bold">Simple <span class="text-purple-main">Solutions!</span></h2>
+                <p class="text-gray-700 mt-5 max-w-lg">
+                    We understand that no two are alike. That's why we take the time to fully understand your unique goals, challenges, and vision.
+                </p>
+                <div class="mt-8 flex gap-4">
+                    <button class="bg-orange-main text-white px-8 py-3 rounded-lg font-bold">Get Started</button>
+                    <button class="border border-orange-500 text-orange-600 px-8 py-3 rounded-lg font-bold">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col md:flex-row items-center px-10 py-20">
+            <div class="md:w-1/2 order-2 md:order-1">
+                <h2 class="text-4xl font-bold">Our <span class="text-purple-main">Agency</span></h2>
+                <p class="text-gray-500 mt-5 max-w-md leading-relaxed">
+                    We believe in the power of data. Our analytics-driven approach allows us to make informed decisions and turn your data into actionable insights.
+                </p>
+                <button class="mt-8 bg-orange-main text-white px-8 py-3 rounded-lg font-bold">Read More</button>
+            </div>
+            <div class="md:w-1/2 order-1 md:order-2">
+                <img src="3.png" alt="Agency" class="w-full max-w-md mx-auto rounded-xl">
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50 text-center">
+            <h2 class="text-3xl font-bold">What <span class="text-orange-500">Clientz</span> Say!</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-10 mt-12">
+                <div class="bg-white p-8 rounded-2xl shadow-sm text-left border border-gray-100">
+                    <h4 class="font-bold text-orange-500 text-sm">Johnathan Smith</h4>
+                    <p class="text-[10px] text-gray-400 mb-3">Executive CEO</p>
+                    <p class="text-xs text-gray-500 italic mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor..."</p>
+                    <div class="flex gap-1">
+                        <img src="Star 2.png" class="w-3">
+                        <img src="Star 2.png" class="w-3">
+                        <img src="Star 2.png" class="w-3">
+                        <img src="Star 2.png" class="w-3">
+                        <img src="Star 1.png" class="w-3">
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <div class="px-10 -mb-10 relative z-10">
+            <div class="bg-orange-main p-8 rounded-xl flex justify-between items-center text-white shadow-xl">
+                <h3 class="text-2xl font-bold">Ready To Get Started?</h3>
+                <button class="border-2 border-white px-8 py-2 rounded-lg font-bold">CONTACT US</button>
+            </div>
+        </div>
+
+        <footer class="bg-orange-light pt-24 pb-10 px-10">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 border-b border-orange-200 pb-10">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <img src="Logo.png" class="w-6">
+                        <span class="font-bold">BizMe</span>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">Company</h5>
+                    <ul class="text-sm space-y-2 text-gray-600">
+                        <li>About</li>
+                        <li>Service</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">Design</h5>
+                    <ul class="text-sm space-y-2 text-gray-600">
+                        <li>UI/UX Design</li>
+                        <li>Illustration</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-bold mb-4">Support</h5>
+                    <ul class="text-sm space-y-2 text-gray-600">
+                        <li>Privacy Policy</li>
+                        <li>Terms</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center text-xs text-gray-500 mt-8">© 2026 BizMe. All rights reserved.</p>
+        </footer>
+        <script>
+       
+        const body = document.body;
+        
+
+        const themeBtn = document.createElement('button');
+        themeBtn.innerHTML = '🌙';
+        themeBtn.className = 'fixed bottom-24 right-5 bg-purple-main text-white p-3 rounded-full shadow-2xl z-50 hover:scale-110 transition';
+        document.body.appendChild(themeBtn);
+
+        themeBtn.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+            
+            if(body.classList.contains('dark-theme')) {
+                themeBtn.innerHTML = '☀️';
+                body.style.backgroundColor = '#1a1a1a';
+                body.style.color = '#ffffff';
+                
+                document.querySelectorAll('.bg-white, .bg-gray-50').forEach(el => el.style.backgroundColor = '#2d2d2d');
+                document.querySelectorAll('p, h1, h2, h3, a').forEach(el => {
+                    if(!el.classList.contains('text-purple-main') && !el.classList.contains('text-white')) {
+                        el.style.color = '#e0e0e0';
+                    }
+                });
+            } else {
+                themeBtn.innerHTML = '🌙';
+                body.style.backgroundColor = '#ffffff';
+                body.style.color = '#000000';
+                document.querySelectorAll('.bg-white').forEach(el => el.style.backgroundColor = '#ffffff');
+                document.querySelectorAll('.bg-gray-50').forEach(el => el.style.backgroundColor = '#f9fafb');
+                document.querySelectorAll('p, h1, h2, h3, a').forEach(el => el.style.color = '');
+            }
+        });
+
+    
+        
+        function validateForm(email, message = "") {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            
+            if (!emailRegex.test(email)) {
+                alert("Mohon masukkan format email yang valid!");
+                return false;
+            }
+            if (message.length < 5 && message !== "") {
+                alert("Pesan terlalu pendek!");
+                return false;
+            }
+            
+            alert("Terima kasih! Data Anda berhasil divalidasi.");
+            return true;
+        }
+
+        const signUpBtn = document.querySelector('nav button');
+        signUpBtn.addEventListener('click', () => {
+            const userEmail = prompt("Masukkan Email Anda untuk mendaftar:");
+            if (userEmail !== null) {
+                validateForm(userEmail);
+            }
+        });
+
+        // Contoh trigger validasi saat tombol Contact Us (paling bawah) ditekan
+        const contactBtn = document.querySelector('.bg-orange-main.p-8 button');
+        contactBtn.addEventListener('click', () => {
+            const email = prompt("Masukkan Email Anda:");
+            const msg = prompt("Apa yang ingin Anda tanyakan?");
+            if (email && msg) {
+                validateForm(email, msg);
+            }
+        });
+    </script>
+
+
+    </body>
+    </html>

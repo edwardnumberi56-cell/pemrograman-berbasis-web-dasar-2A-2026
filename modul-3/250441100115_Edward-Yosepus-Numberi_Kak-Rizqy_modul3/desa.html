@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Desa Karang Mulya - Tugas Web 1</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eeeeee;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* Bagian Banner/Hero */
+        .banner {
+            background-color: #222222;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            /* Simulasi gambar background sederhana */
+            border-bottom: 5px solid #003366;
+        }
+
+        .banner h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        /* Kontainer Utama */
+        .main-content {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #cccccc;
+        }
+
+        /* Bagian Statistik Penduduk */
+        .statistik {
+            display: block; /* Pemula jarang pakai flexbox yang rumit */
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .stat-item {
+            display: inline-block;
+            width: 20%;
+            padding: 10px;
+            border: 1px solid #dddddd;
+            background-color: #f9f9f9;
+        }
+
+        .stat-item h3 {
+            color: #003366;
+            margin: 5px 0;
+        }
+
+        /* Bagian Layanan */
+        .layanan-section {
+            margin-top: 40px;
+        }
+
+        .layanan-box {
+            border: 1px solid #dddddd;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        .layanan-box h4 {
+            color: #003366;
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        .button-kontak {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DESA WAMESA</h1>
+        <p>Kabupaten Kaimana Papua Barat</p>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Profil Desa</a>
+        <a href="#">Layanan</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <div class="banner">
+        <h1>Selamat Datang di Portal Desa</h1>
+        <p>Website ini dibuat untuk memberikan informasi kepada warga desa Wamesa.</p>
+        <br>
+        <a href="#" class="button-kontak">Klik Untuk Informasi</a>
+    </div>
+
+    <div class="main-content">
+        
+        <h2>Data Statistik Desa Wamesa</h2>
+        <div class="statistik">
+            <div class="stat-item">
+                <h3>4.520</h3>
+                <p>Penduduk</p>
+            </div>
+            <div class="stat-item">
+                <h3>1.240</h3>
+                <p>Keluarga</p>
+            </div>
+            <div class="stat-item">
+                <h3>12</h3>
+                <p>Wilayah RW</p>
+            </div>
+            <div class="stat-item">
+                <h3>850 Ha</h3>
+                <p>Luas Desa</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="layanan-section">
+            <h2>Layanan Masyarakat</h2>
+            
+            <div class="layanan-box">
+                <h4>1. Surat Pengantar</h4>
+                <p>Warga bisa meminta surat pengantar untuk membuat KTP atau KK di kantor desa.</p>
+            </div>
+
+            <div class="layanan-box">
+                <h4>2. Bantuan Sosial</h4>
+                <p>Informasi mengenai pembagian sembako dan bantuan pemerintah lainnya.</p>
+            </div>
+
+            <div class="layanan-box">
+                <h4>3. UMKM Desa</h4>
+                <p>Mempromosikan jualan warga desa seperti kerajinan tangan dan makanan.</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 30px; padding: 15px; background-color: #e7f3ff; border: 1px solid #b6d4fe;">
+            <p><b>Pengumuman:</b> Kantor desa buka dari jam 08.00 pagi sampai jam 15.00 sore.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p><b>Kontak Kami:</b></p>
+        <p>Alamat: Jl. Raya Kemerdekaan No. 45, Desa wamesa</p>
+        <p>Email: desawamesa@gmail.com</p>
+        <p>&copy; 2026 Website Desa wamesa - Dibuat oleh Kepala Desa</p>
+    </footer>
+
+</body>
+</html>

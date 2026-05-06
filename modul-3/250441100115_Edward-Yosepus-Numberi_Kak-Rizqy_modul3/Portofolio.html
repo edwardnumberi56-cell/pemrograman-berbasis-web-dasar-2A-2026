@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-blue-600 uppercase tracking-widest">
+                Portofolio.
+            </div>
+            <ul class="flex space-x-6 text-sm font-medium">
+                <li><a href="#home" class="hover:text-blue-600 transition">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-600 transition">Tentang</a></li>
+                <li><a href="#skills" class="hover:text-blue-600 transition">Skill</a></li>
+                <li><a href="#contact" class="hover:text-blue-600 transition">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="py-20 px-6 flex flex-col items-center text-center bg-white border-b">
+        <div class="w-32 h-32 bg-gray-200 rounded-full mb-6 overflow-hidden">
+            <img src="13.png" alt="Profile" class="w-full h-full object-cover">
+        </div>
+        <h1 class="text-4x1 font-bold mb-4 text-gray-900">edward numberi</h1>
+        <p class="text-gray-600 max-w-xl text-lg mb-8">
+            saya sedang belajar web yang fokus pada pembuatan aplikasi yang fungsional, bersih, dan mudah digunakan.
+        </p>
+        <div class="flex gap-4">
+            <a href class="bg-blue-600 text-white px-6 py-2 rounded shadow hover:bg-blue-700 transition">Hubungi Saya</a>
+            <a href class="border border-gray-300 px-6 py-2 rounded hover:bg-gray-50 transition">Tentang Saya</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-2xl font-bold mb-6 border-l-4 border-blue-600 pl-4">Tentang Saya</h2>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                    Saya adalah mahasiswa sistem informasi yang sedang belajar membuat portofolio dengan menggunakan flexbox
+                </p>
+        
+            <div class="bg-gray-100 p-8 rounded-lg border border-gray-200">
+                <h3 class="font-bold mb-4">Informasi Kontak</h3>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex justify-between border-b pb-2">
+                        <span class="text-gray-500">Email:</span>
+                        <span class="font-medium text-blue-600">edwardnumberi56@gmail.com</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-2">
+                        <span class="text-gray-500">Lokasi:</span>
+                        <span class="font-medium text-gray-800">Sorong, west papua</span>
+                    </li>
+                    <li class="flex justify-between border-b pb-2">
+                        <span class="text-gray-500">Status:</span>
+                        <span class="font-medium text-black">Mahasiswa</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-gray-100 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-12 uppercase tracking-wide">Keahlian</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-700">HTML</div>
+                    <p class="text-xs text-gray-500 mt-2">Struktur & Gaya</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-700">word</div>
+                    <p class="text-xs text-gray-500 mt-2">Utilitas Pertama</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-700">Olahraga</div>
+                    <p class="text-xs text-gray-500 mt-2">workout</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-700">Canva</div>
+                    <p class="text-xs text-gray-500 mt-2">Desain</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-6 text-center">
+        <h2 class="text-2xl font-bold mb-6">Mari Berdiskusi</h2>
+        <p class="text-gray-600 mb-10">Jika Anda tertarik untuk berkolaborasi, silahkan mengklik tombol dibawa ini.</p>
+        <a href="https://mail.google.com/mail/u/0/#inbox" class="inline-block bg-gray-900 text-white px-10 py-3 rounded-md hover:bg-black transition font-semibold">
+            Kirim Email
+        </a>
+    </section>
+
+    <footer class="py-8 bg-white border-t border-gray-200">
+        <div class="flex flex-col md:row justify-between items-center text-gray-500 text-sm">
+            <p>&copy; 2026 Portfolio. edward</p>
+            <div class="flex space-x-4 mt-4 md:mt-0">
+                <a href="#" class="hover:text-blue-600">LinkedIn</a>
+                <a href="#" class="hover:text-blue-600">facebook</a>
+                <a href="#" class="hover:text-blue-600">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
