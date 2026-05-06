@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 1. Selector Nama Elemen */
 body {
     font-family: Arial, sans-serif;
@@ -53,4 +54,61 @@ body {
     border-radius: 5px;
     font-weight: bold;
     margin-top: 25px;
+=======
+/* 1. Selector Nama Elemen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf5e6;
+    margin:0;
+    padding: 0; 
+    text-align: center; 
+}
+
+/* 2. Selector Class untuk Header */
+.header-produk { 
+    background-color: #4b2e1e;
+    color: #ffffff;
+    padding: 30px;  
+}
+
+/* 3. Selector ID untuk Konten */
+#konten-utama {
+    padding: 40px 12px;
+} 
+
+.img-minuman {
+    width: 280px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #d2691e;
+    border-radius: 20px;
+} 
+
+/* Pengaturan Font & Text */
+.nama-produk {
+    color: #4d2f1f;
+    font-size: 35px;
+    margin-top: 20px;
+
+}
+
+.Edward {
+    color: #3d0404;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 18px;
+} 
+
+
+.btn-beli {
+    display: inline-block;
+    background-color: #d2691e;
+    color: white;
+    padding: 12px 30px; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 25px;
+>>>>>>> 243614de42f2d20027f8105e427c234d95d7f6dd
 }
